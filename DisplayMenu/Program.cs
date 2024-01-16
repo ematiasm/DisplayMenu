@@ -8,12 +8,8 @@
             while (displayMenu)
             {
                 displayMenu = Menu();
-
             }
-
-            Console.ReadLine();
         }
-
         private static bool Menu()
         {
             Console.Clear();
@@ -40,7 +36,6 @@
             else
                 return true;
         }
-
         private static void PrintNumbers()
         {
             Console.Clear();
@@ -54,9 +49,7 @@
                 counter++;
             }
             ExitMenu();
-
         }
-
         private static void GuessinGame()
         {
             Random myRandom = new Random();
